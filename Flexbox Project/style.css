@@ -8,7 +8,7 @@ box-sizing: border-box;
 
 *{
 
-font-family: Roboto;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 padding: 0;
 margin: 0;
 
@@ -17,54 +17,81 @@ margin: 0;
 
 .manşet{
     display: flex;
-    height:  75px;
-    width: auto;
+    height:  100px;
     background-color: #1F2937;
-    font-size: 25px;
     color:  #F9FAF8;
+    align-items: baseline;
+    padding-top: 20px;
+    justify-content: space-around;
 
 }
 .manşet p{
 
-    font-size: 25px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .links {
-
-
-margin-left: auto;
+display: flex;
+/* justify-content: space-between  ; */
+gap: 16px;
+width: 450px;
+color:#E5E7EB;
+/* text-decoration: none;
+text-weight: lighter;
+padding-right: 15px; */
 
 }
 .manşet a {
 
-    color: #F9FAF8;  
+color: #F9FAF8;  
 font-weight: normal;
 font-size: 20px;
 text-decoration: none;
 }
 
 .part1{
-
-
-    height: 200px;
-  
+    display: flex;
+    height: 300px;
     background-color: #1F2937;
-
     color:  #F9FAF8;
+    align-items: center;
+   justify-content: center;
+    
 }
 
 .part1 h1{
     display: flex;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
     
-    padding-left: 40px;
+  
 }
 
 .part1 p{
 
-    font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
+   font-size: 18px;
+   width: 400px;
+   color:#E5E7EB;
+  
+}
+.part1 button{
+
+    background-color: #3882f6;
+    color:#F9FAF8;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.box2{
+width: 400px;
+height: 145px;
+background-color: #616366;
+text-align: center;
+padding-top: 60px;
+margin-left: 40px;
+
 }
