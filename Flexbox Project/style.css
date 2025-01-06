@@ -1,0 +1,14 @@
+*{
+
+font-family: Roboto;
+}
+
+
+.manşet{
+
+    height:  50px;
+    width: auto;
+    background-color: #1F2937;
+    font-size: 25px;
+
+}
