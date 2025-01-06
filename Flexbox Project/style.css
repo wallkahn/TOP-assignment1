@@ -17,18 +17,54 @@ margin: 0;
 
 .manşet{
     display: flex;
-    height:  50px;
+    height:  75px;
     width: auto;
     background-color: #1F2937;
     font-size: 25px;
     color:  #F9FAF8;
 
 }
+.manşet p{
 
+    font-size: 25px;
+}
+
+.links {
+
+
+margin-left: auto;
+
+}
 .manşet a {
 
-color: #F9FAF8;  
+    color: #F9FAF8;  
 font-weight: normal;
 font-size: 20px;
+text-decoration: none;
+}
 
+.part1{
+
+
+    height: 200px;
+  
+    background-color: #1F2937;
+
+    color:  #F9FAF8;
+}
+
+.part1 h1{
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    
+    padding-left: 40px;
+}
+
+.part1 p{
+
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
 }
